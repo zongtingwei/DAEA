@@ -30,6 +30,8 @@ else
 end
 global CNTTIME
 CNTTIME = maxFES*iterator;
+% ...之前的代码...
+
 for data = 1:length(dataNameArray)
     clc
     clearvars -except dataNameArray data algorithmName maxFES choice sizep iterator LOOCV fold
@@ -81,6 +83,16 @@ for data = 1:length(dataNameArray)
         errorOnTest(i,2) = tempF/size(Tgood,1);
         aveTrain1 = aveTrain1 + outcome{i,6}(1);
         aveTrain2 = aveTrain2 + outcome{i,6}(2);
+        
+        % Identify and print the first Pareto front for this iteration
+        [FrontNOunion,~] = NDSort(unionPFfit(:,1:2),size(unionPFfit,1));
+        siteunionPF = find(FrontNOunion == 1);
+        if ~isempty(siteunionPF)
+            fprintf('First Pareto Front for iteration %d:\n', i);
+            disp(unionPFfit(siteunionPF, :));
+        else
+            fprintf('No Pareto Front found for iteration %d.\n', i);
+        end
     end
     aver_errorOnTest = mean(errorOnTest); %
     aveTrain1 = aveTrain1/iterator;
@@ -95,6 +107,8 @@ for data = 1:length(dataNameArray)
     % unionPF is the PF of the final population
     % unionPFfit is the object function (size of features and the error rate on test set)
 
-    % Output the First Pareto Front
+    % Output the First Pareto Front for all iterations
+    fprintf('First Pareto Front for all iterations:\n');
+    disp(unionPFfit(siteunionPF, :));
 end
 toc;
