@@ -1,5 +1,5 @@
 function [solution, time, off, ofit, site, paretoAVE, tempVar, bitImportance] = DAEA(train_F, train_L, maxFES, sizep)
-    fprintf('DAEA');                                      
+    fprintf('DAEA');                                       
     tic
     FES = 1;
     dim = size(train_F, 2);
@@ -123,10 +123,18 @@ function [solution, time, off, ofit, site, paretoAVE, tempVar, bitImportance] = 
     
     paretoAVE(1) = mean(solution(:,1));
     paretoAVE(2) = mean(solution(:,2));
+    
+    % Define and calculate tAveError, tAveFea, tErBest, tThres
+    tAveError = paretoAVE(1);  % Average error
+    tAveFea = paretoAVE(2);    % Average features
+    tErBest = erBestParetoAVE; % Best error
+    tThres = extTemp;          % Threshold
+    
     tempVar{1} = tAveError;
     tempVar{2} = tAveFea;
     tempVar{3} = tErBest;
     tempVar{4} = tThres;
+    
     clear tAveError;
     clear tAveFea;
     clear tErBest;
