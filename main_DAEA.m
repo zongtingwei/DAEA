@@ -107,8 +107,5 @@ for data = 1:length(dataNameArray)
     % unionPF is the PF of the final population
     % unionPFfit is the object function (size of features and the error rate on test set)
 
-    % Output the First Pareto Front for all iterations
-    fprintf('First Pareto Front for all iterations:\n');
-    disp(unionPFfit(siteunionPF, :));
 end
 toc;
