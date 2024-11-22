@@ -5,4 +5,4 @@ Reference: Xu H, Xue B, Zhang M. A duplication analysis-based evolutionary algor
 ### Acknowledgement:
 The implementation is based on the code of [SM-MOEA](https://github.com/BIMK/SM-MOEA) and [PLATEMO](https://github.com/BIMK/PlatEMO). Thanks to them.
 ### Run:
-You can use the main_SparseEA.m and the dataset colon.mat to run this algorithm.
+You can use the main_DAEA.m and the 'colon.mat' file in the 'dataset' folder to run this algorithm.
