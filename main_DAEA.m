@@ -10,7 +10,7 @@ clear;
 tic;
 
 algorithmName = 'DAEA';  
-dataNameArray = {'colon'}; % data set
+dataNameArray = {'colon'}; % dataset
 global maxFES
 maxFES = 100;  % max number of iteration
 global choice
