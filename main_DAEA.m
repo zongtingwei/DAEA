@@ -1,4 +1,4 @@
-% the main function of PRDH
+% the main function of DAEA
 % the data set is in the file /dataset e.g.: dataset/colon.mat
 % the results are saved as a .mat file, and main results are:
 %     unionPF is the PF of the final population
