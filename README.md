@@ -1,5 +1,5 @@
 # DAEA_FS
-DAEA code for solving multi-objective feature selection problems in classification without using PLATEMO
+DAEA code for solving multi-objective feature selection problems in classification
 ### Abstract:
 Reference: Xu H, Xue B, Zhang M. [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863)[J]. IEEE Transactions on Evolutionary Computation, 2020, 25(2): 205-218.
 ###
