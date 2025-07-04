@@ -64,6 +64,7 @@ global choice
 choice = 0.6; % the threshold choose features
 global sizep
 sizep = 300; % size of population
+```
 
 ## ⚙️ References
 Xu H, Xue B, Zhang M. [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863 A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection  )[J]. IEEE Transactions on Evolutionary Computation, 2020, 25(2): 205-218.
