@@ -21,7 +21,7 @@ DAEA is a MATLAB-based evolutionary algorithm designed for solving biobjective f
 
 This implementation is based on the code of [SM-MOEA](https://github.com/BIMK/SM-MOEA) and [PlatEMO](https://github.com/BIMK/PlatEMO). Please refer to the original paper [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863) for detailed information about the algorithm's overview, methodology, and benchmark results.
 
-DAEA_FS was developed for feature selection tasks in classification. The framework can be adapted to other feature selection scenarios with minor modifications.
+This code was developed for feature selection tasks in classification. The framework can be adapted to other feature selection scenarios with minor modifications.
 
 ## 🔥 News
 
