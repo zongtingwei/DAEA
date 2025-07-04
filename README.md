@@ -67,7 +67,7 @@ sizep = 300; % size of population
 ```
 
 ## ⚙️ References
-Xu H, Xue B, Zhang M. [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863 A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection  )[J]. IEEE Transactions on Evolutionary Computation, 2020, 25(2): 205-218.
+Xu H, Xue B, Zhang M. [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863)[J]. IEEE Transactions on Evolutionary Computation, 2020, 25(2): 205-218.
 ###
 Tian Y, Cheng R, Zhang X, et al. [PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization [Educational Forum]](https://ieeexplore.ieee.org/abstract/document/8065138   )[J]. IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87.
 ###
