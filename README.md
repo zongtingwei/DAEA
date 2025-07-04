@@ -6,11 +6,11 @@ DAEA: code for "A Duplication Analysis-Based Evolutionary Algorithm for Biobject
 </h1>
 
 [![Platform](https://img.shields.io/badge/Platform-MATLAB-orange)](https://www.mathworks.com/products/matlab.html)
-[![Dataset](https://img.shields.io/badge/Dataset-Included-green)]([./dataset](https://github.com/zongtingwei/Feature-Selection-FS-datasets))
+[![Dataset](https://img.shields.io/badge/Dataset-Included-green)]((https://github.com/zongtingwei/Feature-Selection-FS-datasets))
 
 [Source Code](https://github.com/zongtingwei/DAEA)
 | [Documentation](https://ieeexplore.ieee.org/abstract/document/9165863)
-| [Dataset]([./dataset](https://github.com/zongtingwei/Feature-Selection-FS-datasets))
+| [Dataset]((https://github.com/zongtingwei/Feature-Selection-FS-datasets))
 
 </div>
 <br>
@@ -39,7 +39,7 @@ DAEA_FS was developed for feature selection tasks in classification. The framewo
 | **Classification Task Support** | 🔥Support |
 | **MATLAB Implementation** | 🔥Support |
 | **Integration with PlatEMO** | 🔥Support |
-| **High-Dimensional Data Support** | 🚀Coming soon |
+| **High-Dimensional Data Support** | 🔥Support |
 | **More Application Scenarios** | 🚀Coming soon |
 
 ## 🎁 Requirements & Installation
