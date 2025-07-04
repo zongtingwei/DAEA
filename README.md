@@ -23,22 +23,18 @@ This implementation is based on the code of [SM-MOEA](https://github.com/BIMK/SM
 
 DAEA_FS was developed for feature selection tasks in classification. The framework can be adapted to other feature selection scenarios with minor modifications.
 
-<img src="./assets/figs/overview.png" alt="DAEA_FS" style="zoom:50%;">
-
 ## 🔥 News
 
-+ 2020.04 🎉🎉 **DAEA_FS Paper Published** [“A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection”](https://ieeexplore.ieee.org/abstract/document/9165863) in IEEE Transactions on Evolutionary Computation!
++ 🎉🎉 Coming soon
 
 ## 💡 Features of our package
 
 | Feature | Support / To be supported |
 |---------|---------------------------|
 | **Efficient Feature Selection** | 🔥Support |
-| **Duplication Analysis** | 🔥Support |
 | **Multi-Objective Optimization** | 🔥Support |
 | **Classification Task Support** | 🔥Support |
 | **MATLAB Implementation** | 🔥Support |
-| **Integration with PlatEMO** | 🔥Support |
 | **High-Dimensional Data Support** | 🔥Support |
 | **More Application Scenarios** | 🚀Coming soon |
 
@@ -55,13 +51,16 @@ DAEA_FS was developed for feature selection tasks in classification. The framewo
 1. Download the code and dataset from the repository.
 2. Open MATLAB and set the working directory to the project root.
 3. Run the `main_DAEA.m` script.
-4. Use the provided "colon.mat" file in the "dataset" folder for testing.
+4. You can choose the provided "dataset.mat" file in the "dataset" folder for testing.
 
 ```matlab
-% Example code snippet to run DAEA_FS
-addpath('path/to/DAEA_FS/code');
-data = load('dataset/colon.mat');
-% Configure parameters as needed
-% Run the algorithm
-results = main_DAEA(data);
-disp(results);
+% an example
+% you can find the code in `main_DAEA.m` file
+algorithmName = 'DAEA';  
+dataNameArray = {'colon'}; % dataset
+global maxFES
+maxFES = 100;  % max number of iteration
+global choice
+choice = 0.6; % the threshold choose features
+global sizep
+sizep = 300; % size of population
