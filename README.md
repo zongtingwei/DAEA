@@ -6,11 +6,11 @@ DAEA: code for "A Duplication Analysis-Based Evolutionary Algorithm for Biobject
 </h1>
 
 [![Platform](https://img.shields.io/badge/Platform-MATLAB-orange)](https://www.mathworks.com/products/matlab.html)
-[![Dataset](https://img.shields.io/badge/Dataset-Included-green)]((https://github.com/zongtingwei/Feature-Selection-FS-datasets))
+[![Dataset](https://img.shields.io/badge/Dataset-Included-green)](https://github.com/zongtingwei/Feature-Selection-FS-datasets)
 
 [Source Code](https://github.com/zongtingwei/DAEA)
 | [Documentation](https://ieeexplore.ieee.org/abstract/document/9165863)
-| [Dataset]((https://github.com/zongtingwei/Feature-Selection-FS-datasets))
+| [Dataset](https://github.com/zongtingwei/Feature-Selection-FS-datasets)
 
 </div>
 <br>
