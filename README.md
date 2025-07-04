@@ -80,7 +80,7 @@ This project is based on the implementation of [SM-MOEA](https://github.com/BIMK
 ## ☎️ Contact
 If you encounter any issues or have questions regarding DAEA, please feel free to contact me.
 
-## ⭐Star
+## ⭐ Star
 If you find this work helpful, please consider giving me a ⭐!
 
 
