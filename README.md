@@ -64,3 +64,22 @@ global choice
 choice = 0.6; % the threshold choose features
 global sizep
 sizep = 300; % size of population
+
+## ⚙️ References
+Xu H, Xue B, Zhang M. [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863 A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection  )[J]. IEEE Transactions on Evolutionary Computation, 2020, 25(2): 205-218.
+###
+Tian Y, Cheng R, Zhang X, et al. [PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization [Educational Forum]](https://ieeexplore.ieee.org/abstract/document/8065138   )[J]. IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87.
+###
+Cheng F, Chu F, Xu Y, et al. [A Steering-Matrix-Based Multiobjective Evolutionary Algorithm for High-Dimensional Feature Selection](https://ieeexplore.ieee.org/abstract/document/9371430   )[J]. IEEE transactions on cybernetics, 2021, 52(9): 9695-9708.
+###
+
+## 🪪 License
+This project is based on the implementation of SM-MOEA and PlatEMO. Please refer to their respective licenses for details.
+
+## ☎️ Contact
+If you encounter any issues or have questions regarding DAEA, please feel free to contact me.
+
+## ⭐Star:
+If you find this work helpful, please consider giving me a ⭐!
+
+
