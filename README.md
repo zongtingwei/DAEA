@@ -6,11 +6,11 @@ DAEA: code for "A Duplication Analysis-Based Evolutionary Algorithm for Biobject
 </h1>
 
 [![Platform](https://img.shields.io/badge/Platform-MATLAB-orange)](https://www.mathworks.com/products/matlab.html)
-[![Dataset](https://img.shields.io/badge/Dataset-feature_selection-green)](https://github.com/zongtingwei/Feature-Selection-FS-datasets)
+[![Dataset](https://img.shields.io/badge/Datasets-feature_selection-green)](https://github.com/zongtingwei/Feature-Selection-FS-datasets)
 
 [Source Code](https://github.com/zongtingwei/DAEA)
 | [Documentation](https://ieeexplore.ieee.org/abstract/document/9165863)
-| [Dataset](https://github.com/zongtingwei/Feature-Selection-FS-datasets)
+| [Datasets](https://github.com/zongtingwei/Feature-Selection-FS-datasets)
 
 </div>
 <br>
@@ -44,7 +44,7 @@ This code was developed for feature selection tasks in classification. The frame
 > This implementation requires MATLAB. Ensure you have MATLAB installed on your system.
 
 > [!Note]
-> The code is based on SM-MOEA and PlatEMO. Please download the required libraries if necessary.
+> The code is based on MATLAB. Please download the required libraries if necessary.
 
 ### How to Run
 
@@ -69,7 +69,7 @@ sizep = 300; % size of population
 ## ⚙️ References
 Xu H, Xue B, Zhang M. [A Duplication Analysis-Based Evolutionary Algorithm for Biobjective Feature Selection](https://ieeexplore.ieee.org/abstract/document/9165863)[J]. IEEE Transactions on Evolutionary Computation, 2020, 25(2): 205-218.
 ###
-Tian Y, Cheng R, Zhang X, et al. [PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization [Educational Forum]](https://ieeexplore.ieee.org/abstract/document/8065138   )[J]. IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87.
+Tian Y, Cheng R, Zhang X, et al. [PlatEMO: A MATLAB Platform for Evolutionary Multi-Objective Optimization [Educational Forum]](https://ieeexplore.ieee.org/abstract/document/8065138)[J]. IEEE Computational Intelligence Magazine, 2017, 12(4): 73-87.
 ###
 Cheng F, Chu F, Xu Y, et al. [A Steering-Matrix-Based Multiobjective Evolutionary Algorithm for High-Dimensional Feature Selection](https://ieeexplore.ieee.org/abstract/document/9371430   )[J]. IEEE transactions on cybernetics, 2021, 52(9): 9695-9708.
 ###
